@@ -1,0 +1,52 @@
+ #abc:link
+ {
+    color: rgb(0, 0, 0);
+ }
+ #abc:visited
+ {
+    color: rgb(255, 14, 163);
+ }
+ #abc:active
+ {
+    color: rgb(255, 0, 0);
+ }
+ #uyt
+     {
+        color:rgb(58, 231, 58);
+        font-size: medium;
+     }
+     #hhikhk
+     {
+        color:rgb(58, 231, 58);
+        font-size: medium;
+        border-bottom-style:dotted ;
+     }
+     
+     h3
+ {
+    
+        text-indent: 500px;
+        text-decoration:dotted;
+        text-decoration: indigo;
+
+}
+div
+{
+        width: auto;
+        height: auto;
+}
+
+#para 
+     {
+        font-size: 15px;
+     }
+#para::before
+     {
+      content: "jgj";  
+color: yellow;
+     }
+#para::after
+{
+    content: "ok";
+    color: brown;
+}     

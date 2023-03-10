@@ -1,0 +1,15 @@
+a:link
+{color:blue;}
+a:visited{color: coral;}
+a:active{color: darkolivegreen;}
+span
+{
+    color: brown ;
+}
+img
+{
+    border-style:groove ;
+    border-color: dimgrey;
+   max-width:100px ;  
+    margin-left:5wpx ;
+}

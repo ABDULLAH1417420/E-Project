@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="team.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            color: white;
+        }
+
+        body {
+            background-color: #002220;
+        }
+
+        .header {
+            /* height: 100px; */
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 45px;
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+
+        .logo {
+            color: white;
+            font-size: 35px;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px 25px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+
+        nav ul li a:hover {
+            color: #f9004d;
+            transition: .4s;
+        }
+
+        .btn {
+            background-color: #f9004d;
+            color: white;
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-weight: bold;
+            padding: 10px 25px;
+            border-radius: 30px;
+            transition: transform .4s;
+        }
+
+        .btn:hover {
+            transform: scale(1.2);
+        }
+
+        footer {
+            width: 100%;
+            position: absolute;
+            background: linear-gradient(to right, #002220, #52ca49);
+            padding: 100px 50px 50px;
+            font-size: 12px;
+            bottom: -1;
+            border-top-left-radius: 125px;
+            color: beige;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <!-- nav bar  -->
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="Crystal-removebg-preview.png" alt=""
+                        style="width: 160px; height: 50px;">
+                    <h6 style="color: aliceblue; margin-left: 20px;">Crystal Products</h6>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-light"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flexjustify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Special Offer.html">Special Offer</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="New Arrivals.html">New Arrival</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Products.html">Products</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <a href="login.html" class="btn">Login/SignUp</a>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- nav bar  -->
+
+
+    </div>
+    <div class="container" style="margin-top: 70px;">
+        <div class="row">
+
+            <!-- Write us -->
+
+            <div id="contact">
+
+                <div style="border-bottom: 2px solid #c1c9c7; text-align: center;">
+                    <h3>Write us</h3>
+                </div>
+                <div>
+                    <p>Jot us a note and we’ll get back to you as quickly as possible.</p>
+                </div>
+
+                <div class="form row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="mb-3">
+                            <label for="validationCustom01" class="form-label" style="margin: 10px;">First name</label>
+                            <input type="text" class="form-control" id="validationCustom01" value=""
+                                placeholder="Enter your full name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="validationCustom02" class="form-label" style="margin: 10px;">Email</label>
+                            <input type="email" class="form-control" id="validationCustom02" value=""
+                                placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="validationCustom03" class="form-label" style="margin: 10px;">Phone</label>
+                            <input type="tel" class="form-control" id="validationCustom03" value=""
+                                placeholder="Enter your phone number" required>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="mb-3">
+                            <label for="validationCustom04" class="form-label" style="margin: 10px;">Whats your
+                                mind?</label>
+                            <textarea class="form-control" id="validationCustom04" rows="9"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="Transistion Done.html"><button type="submit"
+                                class="btn btn-outline-primary col-12">Send</button></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- contact us -->
+
+            <div class="row" id="map" style="margin-top: 70px;">
+
+                <div style="border-bottom: 2px solid #c1c9c7; text-align: center;">
+                    <h3>Contact us</h3>
+                </div>
+                <div>
+                    <p>Here some information about owner of this website</p>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="mt-5">
+                        <div style="display: inline-flex;"><i class="fa-solid fa-location-dot"
+                                style="margin-right: 10px;"></i>
+                            <h5>Address</h5>
+                        </div>
+                        <ul style="list-style-type: square; font-size: small;">
+                            <li>Head Office : 306 307 Anmol-gems 2nd-floor Karachi</li>
+                            <li>LANDMARK: NEAR POWER HOUSE</li>
+                            <li>SECOND BRANCH: PLOT-233 2ND-FLOOR JOHER-MALL SARDAR KARACHI</li>
+                            <li>SUNDAY-OFF</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div style="display: inline-flex;"><i class="fa-solid fa-phone" style="margin-right: 10px;"></i>
+                            <h5>Phone</h5>
+                        </div>
+                        <ul style="list-style-type: square; font-size: small;">
+                            <li> Online Office: +92 765415610</li>
+                            <li> Showroom +92 999973222</li>
+                            <li>Timing 9 am To 6 pm</li>
+                            <li>Monday To Saturday Timing 10 am To 7 pm</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div style="display: inline-flex;"><i class="fa-solid fa-envelope"
+                                style="margin-right: 10px;"></i>
+                            <h5>Email</h5>
+                        </div>
+                        <div>
+                            <a href="mailto:exfrincle@gmail.com">exfrincle@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 mt-4">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.1378545954854!2d67.0308447142723!3d24.927373284022384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f90157042d3%3A0x93d609e8bec9a880!2sAptech%20Computer%20Education%20North%20Nazimabad%20Center!5e0!3m2!1sen!2s!4v1676265737341!5m2!1sen!2s"
+                        width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!---------- Footer ---------->
+    <footer>
+        <div class="row">
+            <div class="col-7">
+                <h2>Crystal Products</h2>
+                <p>At our core, we are a customer-centric business,we stay at the forefront of our industry, and we use
+                    the latest tools and technologies to provide the best possible service to our customers. We believe
+                    in transparency, integrity, and honesty, and we strive to build long-lasting relationships with our
+                    customers based on trust and mutual respect. So, if you're looking for a partner that truly cares
+                    about your success, we're here for you</p>
+            </div>
+            <div class="col-1 text-center">
+                <p style="font-size: 15px;">Created By</p>
+                <p>Abdullah</p>
+                <p>Umair</p>
+                <p>Abdul Wasay</p>
+            </div>
+            <!-- <div class="col-1 text-center"><p>dkkds</p><p>ddsdsj</p><p>dsksdskd</p><p>dkdsdkds</p></div> -->
+            <div class="col-3">
+                <i class="fa-brands fa-facebook" style="font-size: 30px;"></i>
+                <i class="fa-brands fa-twitter" style="font-size: 30px;"></i>
+                <i class="fa-brands fa-facebook-messenger" style="font-size: 30px;"></i>
+                <i class="fa-brands fa-whatsapp" style="font-size: 30px; margin-top: 30px;"></i>
+                <i class="fa-brands fa-instagram" style="font-size: 30px; margin-top: 30px;"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

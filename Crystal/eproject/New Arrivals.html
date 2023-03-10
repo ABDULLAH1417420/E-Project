@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Arrivals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="team.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        footer {
+            width: 100%;
+            position: absolute;
+            background: linear-gradient(to right, #002220, #52ca49);
+            padding: 100px 50px 50px;
+            font-size: 12px;
+            bottom: -1;
+            border-top-left-radius: 125px;
+            color: beige;
+        }
+
+        .header {
+            height: 130px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 45px;
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+
+        .logo {
+            color: white;
+            font-size: 35px;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px 25px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+
+        nav ul li a:hover {
+            color: #f9004d;
+            transition: .4s;
+        }
+
+        .btn {
+            background-color: #f9004d;
+            color: white;
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-weight: bold;
+            padding: 10px 25px;
+            border-radius: 30px;
+            transition: .4s;
+
+        }
+
+        .btn:hover {
+            background-color: #f9004d;
+            transform: scale(1.2);
+            color: white;
+        }
+
+        .imgg {
+            height: 350px;
+            width: 120%;
+        }
+
+        body {
+            background-color: #002220;
+        }
+
+        .prdt a {
+            text-decoration: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .prdt img {
+            width: 235px;
+            border-radius: 5px;
+            height: 270px;
+        }
+
+        .prdt h5 {
+            padding: 20px;
+            color: white;
+        }
+
+        .prdt {
+            transition: 0.3s;
+        }
+
+        .prdt:hover {
+            transform: scale(1.1);
+        }
+
+        .row h1 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <!-- nav bar  -->
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Crystal-removebg-preview.png" alt="" style="width: 160px; height: 50px;"><h6 style="color: aliceblue; margin-left: 20px;">Crystal Products</h6>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-light"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flexjustify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Special Offer.html">Special Offer</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="New Arrivals.html">New Arrival</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Products.html">Products</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <a href="login.html" class="btn">Login/SignUp</a>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- nav bar  -->
+
+
+    </div>
+
+    <!-- Heading -->
+
+    <div class="container-fluid text-center">
+        <div class="row">
+            <h1 class="mt-5" style="color: white;">New arrivals</h1>
+
+        </div>
+    </div>
+
+    <!-- new arrivals -->
+
+    <div class="container text-center mt-5 ">
+        <div class="row justify-content-center">
+
+            <!-- Labradorite -->
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 prdt">
+                <a href="">
+                    <img src="image/New Arrivals/Labradorite.jpg" alt="">
+                    <h5>Labradorite</h5>
+                </a>
+            </div>
+
+            <!-- Apatite -->
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 prdt">
+                <a href="">
+                    <img src="image/New Arrivals/apatite.jpg" alt="">
+                    <h5>Apatite</h5>
+                </a>
+            </div>
+
+            <!-- Sunstone -->
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 prdt">
+                <a href="">
+                    <img src="image/New Arrivals/sunstone.jpg" alt="">
+                    <h5>Sunstone</h5>
+                </a>
+            </div>
+
+            <!-- Rhodonite -->
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 prdt">
+                <a href="">
+                    <img src="image/New Arrivals/Rhodonite.jpg" alt="">
+                    <h5>Rhodonite</h5>
+                </a>
+            </div>
+
+            <!-- Mookaite -->
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 prdt">
+                <a href="">
+                    <img src="image/New Arrivals/Mookaite.jpg" alt="">
+                    <h5>Mookaite</h5>
+                </a>
+            </div>
+
+            <!-- Chrysocolla-->
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 prdt">
+                <a href="">
+                    <img src="image/New Arrivals/Chrysocolla.jpg" alt="">
+                    <h5>Chrysocolla</h5>
+                </a>
+            </div>
+
+            <!-- Pink Tourmaline -->
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 prdt">
+                <a href="">
+                    <img src="image/New Arrivals/Pink Tourmaline.jpg" alt="">
+                    <h5>Pink Tourmaline</h5>
+                </a>
+            </div>
+
+            <!-- Blue Kyanite-->
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 prdt">
+                <a href="">
+                    <img src="image/New Arrivals/Blue Kyanite.jpg" alt="">
+                    <h5>Blue Kyanite</h5>
+                </a>
+            </div>
+
+
+            <!-- Garnet -->
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 prdt">
+                <a href="">
+                    <img src="image/New Arrivals/gernet.jpg" alt="">
+                    <h5>Garnet</h5>
+                </a>
+            </div>
+
+            <!-- Black Obsidian -->
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 prdt">
+                <a href="">
+                    <img src="image/New Arrivals/black obsidian.jpg" alt="">
+                    <h5>Black Obsidian</h5>
+                </a>
+            </div>
+
+            <!-- Danburite-->
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 prdt">
+                <a href="">
+                    <img src="image/New Arrivals/Danburite.jpg" alt="">
+                    <h5>Danburite</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid p-5">
+        <div class="row ">
+            <div class="col-lg-4 d-flex flex-column align-items-center">
+                <h2>Crystal Products</h2>
+                <p>At our core, we are a customer-centric business,we stay at the forefront of our industry, and we use
+                    the latest tools and technologies to provide the best possible service to our customers. We believe
+                    in transparency, integrity, and honesty, and we strive to build long-lasting relationships with our
+                    customers based on trust and mutual respect. So, if you're looking for a partner that truly cares
+                    about your success, we're here for you</p>
+            </div>
+            <div class="col-lg-4  text-center">
+                <h1 class="bg-transparent" style="font-size: 15px;">Created By</h1>
+                <p>Abdullah</p>
+                <p>Umair</p>
+                <p>Abdul Wasay</p>
+                <p>Rumaisa</p>
+            </div>
+
+            <div class="col-lg-4 d-flex flex-column align-items-center">
+                <h1 class="bg-transparent" style="font-size: 15px;">Social Links</h1>
+                <i class="fa-brands fa-facebook" style="font-size: 30px;margin-top: 10px;"></i>
+                <i class="fa-brands fa-twitter" style="font-size: 30px;margin-top: 10px;"></i>
+                <i class="fa-brands fa-facebook-messenger" style="font-size: 30px;margin-top: 10px;"></i>
+                <i class="fa-brands fa-whatsapp" style="font-size: 30px; margin-top: 10px;"></i>
+                <i class="fa-brands fa-instagram" style="font-size: 30px; margin-top: 10px;"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
